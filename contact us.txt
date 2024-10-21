@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Document</title>
+ <link rel="stylesheet"href="./style.css">
+ </head>
+<body>
+<navbar>
+<div class ="logo"><img class="logo" src="./images/logo.jpg"widith="50px" height="50px">
+<ul>
+<li>
+<a href="home"</a>
+<a href="genres"</a>
+<a href="Favourites"</a>
+<a href="contact us"</a>
+</li>
+<ul>
+</navbar>
+ <h1>Welcome To the contact Page</h1>
+ <from action="">
+   <legend>NewsLetter</legend>
+<fieldset>
+ <div>
+ <label for="message">Enter Message</label>
+ <input type="text" id="message"placeholder="Enter Message">
+ </div>
+ <div>
+ <label for="email">Email</label>
+  <input type="email" id="Email"name="name" placeholder="Enter Email">
+  </div>
+  <div>
+  <label for="password" name="password"id="password" placeholder="Enter password">
+  </div>
+   <div>
+  <label for="gender"><select gender:</label>
+  <div>
+  <div>
+  <label>female</label>
+<input type="radio" id="female"name="gender">
+  </div>
+  <div>
+ <label>male</label>
+ <input type="radio" id="male"
+  name="gender">
+  </div>
+ <div>
+ <label><Select Hoobies</label>
+</div>
+ <label>Football</label>
+ <input type="checkbox" id="Football"name="Football" value="Football">
+ </div>
+ <div>
+<label>Dancing</label>
+<input type="checkbox" id="dancing" name="dancing" value="dancing">
+</div>
+<div>
+<label>Swimming</label>
+<input type="checkbox" id="Hoobies"
+name="Swimming" value="Swimming">
+</div>
+<div>
+ <label for="">Select Country</label>
+ <select id="Country" name="Country">
+<option value="india" name="india">India</option>
+ <option value="Uganda"name="Uganda">Uganda</option>
+ <option value="china" name="china">China</option>
+ </select>
+ </div>
+ <div>
+ <label for="msg">Get FeedBack</label>
+ <div>
+ <textarea name="" id="msg" rows="4"placeholder="Enter Your message Here"></textarea>
+ </div>
+<button>submit</button>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

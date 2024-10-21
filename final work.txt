@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <title>online movies</title>
+    <link rel="stylesheet"href="style.css">
+  </head>
+ <body>
+    <nav>
+     <div class ="logo"><img class="logo" src="./images/logo.jpg"widith="90px" height="50px"></div>
+       
+        <ul class="home">
+         <li><a href="HOME.HTML">Home</a></li>
+         <li><a href="#">Genres</a></li>
+         <li><a href="#">Favourites</a></li>
+         <li><a href="contact us.html">contact us</a></li>
+        </ul>
+    </nav>
+    <div class="all">
+      <div class="hero-section">
+        <h1>MOVIE RANKING SITE.</h1>
+        <h2>Welcome to our curated collection of top-rated films,where every movie lover can find something to cherish our comprehensive ranking and reviews are here to guide you through the mesmering world of cinema</h2>
+      </div>
+      <div class="container">
+       <form action="https://www.google.com/search" method="get" class="search_bar">
+         
+        <label ><input type="text" placeholder="search any movie"><button><img src="./images/icon.jpg"width="13px"height="13px"></button></label> 
+        </form>
+      </div>
+      <h3>MOVIE GENRES</h3>
+      <div class="section">
+        <div class ="image-section">
+          <div>
+           <img class="1" src="./images/aaa.jpeg"width="300px"height="300px">
+           <p>ACTION MOVIE</p>
+          </div>
+          <div>
+           <img class="1" src="./images/bbb.jpeg"width="300px"height="300px"><br>
+           <p>LOVE STORY</p>
+          </div>
+         <div>
+           <img class="1" src="./images/ccc.jpeg"width="300px"height="300px">
+           <p>SCI-FICTION</p>
+          </div>
+        </div>  
+      </div>
+      <h3>TOP THREE MOVIES</h3>
+      <div class="img2">
+        <div>
+          <img src="./images/ddd.jpeg"width="200px"height="200px">
+          <ol>
+           <li>
+            <button>watch now</button> 
+           </li>
+          </ol>
+        </div>
+        <div>
+          <img src="./images/eee.jpeg"width="200px"height="200px">
+          <ol>
+           <li>
+          <button> watch now</button> 
+           </li>
+          </ol>
+        </div>
+        <div>
+          <img src="./images/fff.jpeg"width="200px"height="200px">
+          <ol>
+           <li>
+          <button> watch now</button> 
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+         <div class="m">
+           <h4>MOVIE LINKS</h4>
+           <ul>
+           <li><a href="">MRP HOME PAGE</a></li>
+           <li><a href="">MRP LATEST REVIEWS</a></li>
+            <li><a href="">BROWSE MOVIES</a></li>
+           <li><a href="">FIND NEW CHANNELS</a></li>
+            </ul>
+          </div>
+          <div class="n">
+            <h4>Term</h4>
+           <ul>
+           <li><a href="">policy</a></li>
+           <li><a href="">Terms</a></li>
+           <li><a href="">conditions</a></li>
+           </ul>
+          </div>
+          <div class="o">
+            <h4>socials</h4>
+           <ul>
+           <li>
+            <img src="./images/facebook.jpg"with="13px" height="13px"><a href="www.facebook.com">facebook</a>
+            <img src="./images/twitter .jpg"with="13px" height="13px"><a href="www.twitter.com">twitter</a>
+            <img src="./images/facebook.jpg"with="13px" height="13px"><a href="www.instagram">instagram</a>
+           </li>
+           </ul>
+          </div>
+           
+          
+        </div>
+      </div>
+    
+      <div>
+       <label for="msg">SUBSCRIBE TO OUR NEWSLETTER</label>
+        <div>
+         <textarea name="" id="msg" rows="4"
+         placeholder="ENTER YOUR EMAIL"></textarea>
+        </div>
+     </div>
+     <button>submit</button>
+     
+    </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
